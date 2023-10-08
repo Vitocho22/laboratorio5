@@ -14,7 +14,7 @@ namespace laboratorio5
         {
             if (Source == null)
                 return null;
-            // Realiza aquí tu búsqueda de traducción utilizando el método que prefieras.
+            // Do your translation lookup here, using whatever method you
             var imageSource = ImageSource.FromResource(Source, 
                 typeof(ImageResourceExtension).GetTypeInfo().Assembly);
             return imageSource;
